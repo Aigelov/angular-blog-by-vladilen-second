@@ -20,6 +20,7 @@ export class AuthService {
       this.logout();
       return null;
     }
+
     return localStorage.getItem('fb-token');
   }
 
